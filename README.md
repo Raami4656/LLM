@@ -47,7 +47,7 @@ ollama pull qwen3:8b
 pip install numpy ollama pypdf rank_bm25
 ```
 
-The PDF needs to be downloaded from https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf and placed in the `docs` folder. Every PDF in that folder is indexed, so it should contain only the PDFs that are meant to be used.
+The PDF needs to be downloaded from https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf and placed in the `docs` folder, although this repository already has the file with the first four pages removed. Every PDF in that folder is indexed, so it should contain only the PDFs that are meant to be used.
 
 ### 2. Build the index with `prepare.py`
 
